@@ -1,0 +1,82 @@
+DATASET PARAMETERS DETAILS :
+---------------------------------------------------------------
+Month: Month in which the claim was made.
+
+WeekOfMonth: Week number within the month of the claim.
+
+DayOfWeek: Day of the week when the accident occurred.
+
+Make: Vehicle make or manufacturer.
+
+AccidentArea: Location or area where the accident took place.
+
+DayOfWeekClaimed: Day of the week when the claim was made.
+
+MonthClaimed: Month in which the claim was reported.
+
+WeekOfMonthClaimed: Week number within the month when the claim was reported.
+
+Sex: Gender of the policyholder.
+
+MaritalStatus: Marital status of the policyholder.
+
+Age: Age of the policyholder.
+
+Fault: Whether the policyholder was at fault in the accident.
+
+PolicyType: Type of insurance policy.
+
+VehicleCategory: Category of the insured vehicle.
+
+VehiclePrice: Price or value of the insured vehicle.
+
+**FraudFound_P: Binary flag indicating if fraud was found.
+
+PolicyNumber: Unique identifier for the insurance policy.
+
+RepNumber: Representative number.
+
+Deductible: Amount of deductible for the claim.
+
+DriverRating: Rating of the driver.
+
+Days_Policy_Accident: Number of days since the policy inception to the accident.
+
+Days_Policy_Claim: Number of days since the policy inception to the claim.
+
+PastNumberOfClaims: Number of previous claims by the policyholder.
+
+AgeOfVehicle: Age of the insured vehicle.
+
+AgeOfPolicyHolder: Age of the policyholder.
+
+PoliceReportFiled: Whether a police report was filed for the accident.
+
+WitnessPresent: Whether a witness was present at the accident.
+
+AgentType: Type of insurance agent.
+
+NumberOfSuppliments: Number of additional coverages or supplements.
+
+AddressChange_Claim: Whether there was an address change associated with the claim.
+
+NumberOfCars: Number of cars insured under the policy.
+
+Year: Year of the claim.
+
+BasePolicy: Base insurance policy type.
+===========================================================================================================
+ABOUT TARGET VARIABLE:
+-----------------------------
+
+Our target variable is the "FraudFound_P" attribute. This variable is a binary flag that indicates whether fraud was found in the insurance claim. 
+Here's a brief description of the target variable:
+
+FraudFound_P: 
+This binary variable has a value of 1 if fraud was found in the insurance claim, indicating a fraudulent claim. 
+A value of 0 indicates that fraud was not found or not detected in the claim.
+It serves as the outcome or response variable that your machine learning model will aim to predict based on the other attributes in the dataset.
+
+
+
+========================================================================================================================
